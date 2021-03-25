@@ -1,6 +1,4 @@
-org: finale
-app: express-with-dynamodb
-service: express-with-dynamodb-1
+service: express-with-dynamodb
 
 frameworkVersion: '2'
 
