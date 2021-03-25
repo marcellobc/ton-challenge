@@ -2,7 +2,7 @@
 <p>Para realização deste desafio, foi utilizado para lidar com as lambdas, o serverless framework com o template do
     express-api. E, para lidar com a infraestrutura na AWS, o Terraform.</p>
 <p>A aplicação se encontra online. <a target="_blank"
-        href="https://ehgsoo20j8.execute-api.us-east-1.amazonaws.com/dev">Clique
+        href="https://az07gj24l4.execute-api.us-east-1.amazonaws.com/dev/">Clique
         aqui para acessar</a></p>
 
 <h1>Iniciando a aplicação</h1>
@@ -28,7 +28,8 @@
 <h3>2º passo: Disponibilizar aplicação com o Serverless Framework</h3>
 <ol>
     <li>Acessar pasta backend</li>
-    <li>configurar o arquivo serverless.yml com as suas credenciais</li>
+    <li>rodar o comando: npm install</li>
+    <li>rodar o comando: serverless login</li>
     <li>rodar o comando: serverless deploy</li>
 </ol>
 
@@ -49,7 +50,8 @@
 </div>
 
 <h1>Rotas</h1>
-<p><b>baseURL:</b> https://ehgsoo20j8.execute-api.us-east-1.amazonaws.com/dev</p>
+<p><b>coleção do Postman</b>:https://www.getpostman.com/collections/7abb779e52ac11167f29</p>
+<p><b>baseURL:</b>https://az07gj24l4.execute-api.us-east-1.amazonaws.com/dev/</p>
 <div>
     <h3>Listar Funcionários [GET] /public/employees</h3>
     <pre>

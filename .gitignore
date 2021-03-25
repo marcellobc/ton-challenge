@@ -1,6 +1,7 @@
 backend/node_modules
 backend/.serverless
 backend/.env
+backend/package-lock.json
 
 terraform/.terraform
 terraform/.terraform.lock.hcl
